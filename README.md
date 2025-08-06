@@ -19,22 +19,22 @@ This repository hosts a machine learning project built in **Google Colab** to pr
 
 ## 📁 Folder Structure
 📁 churn-prediction/
-├── churn_prediction.ipynb       # Main Colab notebook with full workflow
+├── churn_prediction.ipynb       
 ├── data/
-│   └── customer_data.csv        # Dataset used for training and evaluation
+│   └── customer_data.csv        
 ├── models/
-│   └── random_forest_model.pkl  # Saved model file (if applicable)
+│   └── random_forest_model.pkl  
 ├── images/
-│   └── roc_curve.png            # Evaluation plot (e.g., ROC curve, confusion matrix)
-├── requirements.txt             # Optional: list of libraries used (if running locally)
-└── README.md                    # Project overview and documentation   
+│   └── roc_curve.png            
+├── requirements.txt             
+└── README.md                  
 
 
 ## 🚀 Getting Started
 
 To run this project in Google Colab:
 
-1. Click on the notebook file `churn_prediction.ipynb`
+1. Click on the notebook file `churn_prediction.py`
 2. Open it in Google Colab by clicking “Open in Colab”
 3. Make sure your dataset is loaded correctly (modify the path if needed)
 4. Run all cells and inspect outputs
